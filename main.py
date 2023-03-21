@@ -1,12 +1,5 @@
 from selenium import webdriver
 
-# chrome driver
-from selenium.webdriver.chrome.service import Service
-# -- Chrome
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.select import Select
-import Rating
-
 
 def browser():
     driver = webdriver.Chrome(executable_path='../chromeDriver/chromedriver.exe')
