@@ -1,4 +1,5 @@
 from selenium import webdriver
+import Rating
 
 
 def browser():
@@ -11,4 +12,6 @@ def browser():
 
 
 if __name__ == '__main__':
-    browser()
+    userinput = float(input("Enter rating between 0 to 5: "))
+    obj = Rating(22)
+
